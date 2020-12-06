@@ -1,0 +1,161 @@
+body {
+  background-color: #282c34;
+  scrollbar-width: thin;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  background-color: #282c34;
+  position:absolute;
+  width: 100vw;
+  margin-bottom: 2rem;
+  bottom:0;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.appHandler{
+  padding: 0;
+  overflow: auto;
+  height: 80vh;
+  width: 50vw;
+}
+.message{
+  font-size: calc(8px + 1vmin);
+  color: lightgrey;
+}
+input:focus {
+  outline:0;
+}
+
+input {
+  color: white;
+  background: #20232a;
+  font-size: 16px;
+  width: 500px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+#mes {
+  background: #282c34;
+  color: white;
+  width: 500px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+::placeholder { 
+  color: white;
+  opacity: 0.3;
+}
+
+button {
+  width: 75px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #1c89ff;
+  border: solid 1px transparent;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+}
+
+.displayer{
+  text-align: center;
+  font-size: calc(8px + 1vmin);
+  color: lightgrey;
+}
+
+.top-menu-item:hover {
+  background-color: #20232a;
+}
+.top-menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #20232a;
+  color: white;
+  padding: 1rem 0;
+  user-select: none; 
+}
+
+.createForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .top-menu > .right {
+  float: right;
+}
+
+.top-menu > .right > * {
+  margin-left: 5px;
+}
+
+.top-menu > .left {
+  float: left;
+}
+
+.top-menu > .left > * {
+  margin-right: 5px;
+}
+
+.top-menu > .left > *, .top-menu > .right > * {
+  padding: 11.4px;
+  display: inline-block;
+  text-align: center;
+  min-width: 50px;
+} */
+
+.top-menu *:hover{
+  cursor: pointer;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.top-menu .top-menu-icon {
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+/* .createform{
+  float: left;
+} */
+
+input[type=text] {
+  padding:10px;
+}
+input[type=submit] {
+  padding:10px;
+}
+.top-menu-lead {
+  padding: 10px;
+  background-color: #20232a;
+  color: white;
+  display: inline-block;
+  float: left;
+  font-size: 18px;
+}
